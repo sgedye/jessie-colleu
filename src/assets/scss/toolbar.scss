@@ -37,7 +37,8 @@ nav.responsive-nav {
   ul {
     position: fixed;
     width: 250px;
-    height: calc(100% - 120px);
+    height: 100vh;
+    height: calc(100vh - 120px);
     margin: 0;
     padding: 0;
     left: -190px;
