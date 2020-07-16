@@ -42,6 +42,7 @@ nav.responsive-nav {
     padding: 0;
     left: -190px;
     top: 60px;
+    @include flexbox();
     @include flex-direction(column);
     border-collapse: separate;
     box-shadow: 2px 2px 2px #ccc;
