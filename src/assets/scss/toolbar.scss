@@ -70,9 +70,7 @@ nav.responsive-nav {
       text-decoration: none;
       color: white;
       font-size: 25px;
-      // FIX THIS --------------------------------------------
-      justify-content: space-between; // Not supported in IE.
-      // ------------------------------------------ FIX THIS //
+      justify-content: space-between;
     }
   }
 }
@@ -113,3 +111,10 @@ nav.responsive-nav {
     }
   }
 }
+
+// @media screen and (min-width: 1440px) {
+//   // Display the mobile version if the browser doesn't support grid (i.e. IE)
+//   @supports (grid-template-columns: 60px 140px 1fr) and (justify-self: flex-end) {
+//     nav.responsive-nav > h1 { display: inline-block; }
+//   }
+// }

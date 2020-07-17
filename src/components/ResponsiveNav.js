@@ -17,7 +17,7 @@ function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo
       <figure onClick={() => setNavOpen(!navOpen)}>
         <img id="logo" src={logo} height="45px" width="45px" alt="Logo-Nav-Toggler" />
       </figure>
-      <h1>Webpage</h1>
+      <h1>Jessie</h1>
       <ul
         style={{ background: background || "#222" }}
         className={navOpen ? "active" : ""}
