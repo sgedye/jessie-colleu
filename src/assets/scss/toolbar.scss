@@ -38,11 +38,12 @@ nav.responsive-nav {
     position: fixed;
     width: 250px;
     height: 100vh;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 60px);
     margin: 0;
     padding: 0;
     left: -190px;
     top: 60px;
+    z-index: 5;
     @include flexbox();
     @include flex-direction(column);
     border-collapse: separate;
@@ -71,13 +72,14 @@ nav.responsive-nav {
       color: white;
       font-size: 25px;
       justify-content: space-between;
+      // i { font-size: 32px; }
     }
   }
 }
 
 @media screen and (min-width: 1024px) {
   // Display the mobile version if the browser doesn't support grid (i.e. IE)
-  @supports (grid-template-columns: 60px 0 1fr) and (justify-self: flex-end) {
+  @supports (grid-template-columns: 1fr) and (justify-self: flex-end) {
     nav.responsive-nav {
       display: grid;
       grid-template-columns: 60px 0 1fr;
