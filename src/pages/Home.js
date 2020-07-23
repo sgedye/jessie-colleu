@@ -79,6 +79,7 @@ const Wrapper = styled.section`
   text-align: center;
   h2 {
     margin: 20px 0 5px 0;
+    text-align: center;
   }
 `;
 

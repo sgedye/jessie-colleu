@@ -49,6 +49,9 @@
   border: 1px solid #111;
   border-radius: 1.2em;
 }
+.main {
+  padding: 0 10px;
+}
 .description {
   font-size: 1.1em;
 }
@@ -105,8 +108,12 @@
       margin-top: 2rem;
     }
   }
+  .image {
+    border: none;
+  }
   .main {
     display: block;
+    padding: 0;
     max-width: calc(100% - 320px);
   }
   .description {

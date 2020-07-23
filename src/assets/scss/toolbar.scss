@@ -94,6 +94,7 @@ nav.responsive-nav {
         position: static;
         height: 60px;
         width: auto;
+        padding-right: 1rem;
         @include flexbox();
         @include flex-direction(row);
         justify-self: flex-end;
