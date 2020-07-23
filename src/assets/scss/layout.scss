@@ -1,13 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
+body {
+  background-color: lightblue;
+}
 .page-wrapper {
   margin: 60px 0 0 60px;
   padding: 20px;
   min-height: calc(100vh - 120px);
-  background-color: pink;
+  background-color: white;
+  h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 2em;
+    text-align: center;
+  }
 }
 
 .tabs {
@@ -36,6 +46,11 @@
 @media screen and (min-width: 1024px) {
   .page-wrapper {
     margin: 60px 60px 0;
+    h2 {
+      text-align: left;
+      font-size: 3em;
+      padding-top: 1rem;
+    }
   }
   .tabs {
     display: block;
