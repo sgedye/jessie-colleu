@@ -4,15 +4,18 @@ import PortfolioSvg from "../assets/svg/portfolioSvg";
 import CalendarSvg from "../assets/svg/calendarSvg";
 import ResearchSvg from "../assets/svg/researchSvg";
 import { FaCalendarAlt, FaBook, FaUserAlt, FaPortrait, FaChalkboard, FaChalkboardTeacher, FaInternetExplorer, FaSearch, FaUserCircle, FaUserTag, FaUserTie, FaRegUserCircle, FaInfoCircle, FaHome } from "react-icons/fa";
-import { GiTeacher, GiBookCover, GiBookPile, GiBookshelf, GiOpenBook, GiBlackBook, GiWhiteBook, GiSecretBook, GiPublicSpeaker } from 'react-icons/gi';
+import { GiTeacher, GiBookCover, GiBookPile, GiBookshelf, GiOpenBook, GiBlackBook, GiWhiteBook, GiSecretBook, GiPublicSpeaker, GiMailbox, GiMegaphone } from 'react-icons/gi';
 import { TiInfo, TiHomeOutline } from 'react-icons/ti'
 // Calendars
 import { FaRegCalendarAlt } from 'react-icons/fa'
-import { GoCalendar, GoInfo, GoHome } from 'react-icons/go'
+import { GoCalendar, GoInfo, GoHome, GoMegaphone } from 'react-icons/go'
 import { GiCalendar } from 'react-icons/gi'
-import { AiOutlineHome } from 'react-icons/ai'
-import { IoIosHome } from 'react-icons/io'
+import { AiOutlineHome, AiOutlineMail, AiTwotoneMail } from 'react-icons/ai'
+import { IoIosHome, IoIosContact, IoMdContact, IoMdMail, IoIosMailOpen, IoIosMegaphone } from 'react-icons/io'
 import { TiHome } from 'react-icons/ti'
+import { MdEmail } from 'react-icons/md'
+import Image from '../assets/images/aaaaa.jpeg'
+
 
 const Research = () => {
   return (
@@ -34,11 +37,9 @@ const Research = () => {
           <CalendarSvg />
           <ResearchSvg />
         </div>
-        <div style={{ width: "100px", marginLeft: '20px', display: 'inline-block' }}>
-          <TeachingSvg />
-          <PortfolioSvg />
-          <CalendarSvg />
-          <ResearchSvg />
+        <div>
+          <h2>Events</h2>
+          <img src={Image} width="auto" height="500px" alt='blah' />
         </div>
         <br />
         <br />
@@ -104,6 +105,8 @@ const Research = () => {
           <FaUserTie />
           <FaRegUserCircle />
           <FaInfoCircle />
+          <IoIosContact />
+          <IoMdContact />
           <GoInfo />
           <TiInfo />
         </div>
@@ -122,6 +125,24 @@ const Research = () => {
           <AiOutlineHome />
           <TiHome />
           <TiHomeOutline />
+        </div>
+        <br />
+        <br />
+        <hr />
+        <hr />
+        <br />
+        <br />
+        <h2>Contact</h2>
+        <div style={{ fontSize: "25px", width: "25px", height: '25px', margin: '20px', display: 'inline-block' }}>
+          <MdEmail />
+          <AiOutlineMail />
+          <AiTwotoneMail />
+          <IoMdMail />
+          <GiMailbox />
+          <IoIosMailOpen />
+          <IoIosMegaphone />
+          <GoMegaphone />
+          <GiMegaphone />
         </div>
       </div>
     </section>

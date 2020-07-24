@@ -33,9 +33,9 @@ function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo
           >
             <Link to={path} style={{ color: linkColor || "#eee" }} onClick={() => setNavOpen(false)}>
               {title}
-              {icon}
+              {/* {icon} */}
               {/* { <FaCalendarAlt />} */}
-              {/* <i className={icon} /> */}
+              <i className={icon} />
             </Link>
           </li>
         ))}
