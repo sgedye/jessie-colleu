@@ -1,8 +1,8 @@
-import React from 'react'
-import EventsCalendar from '../svg/calendarSvg'
-import { FaCalendarAlt, FaRegCalendarAlt } from 'react-icons/fa'
-import { GoCalendar } from 'react-icons/go'
-import { GiCalendar } from 'react-icons/gi'
+// import React from 'react'
+// import EventsCalendar from '../svg/calendarSvg'
+// import { FaCalendarAlt, FaRegCalendarAlt } from 'react-icons/fa'
+// import { GoCalendar } from 'react-icons/go'
+// import { GiCalendar } from 'react-icons/gi'
 
 export default [
   { id: 0, title: 'Home', path: '/', icon: 'ion-ios-home' },

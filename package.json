@@ -1,5 +1,6 @@
 {
   "name": "jessie-colleu",
+  "homepage": "https://jessie-colleu.netlify.app/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
