@@ -65,7 +65,11 @@ const Research = () => {
         <div style={{ fontSize: "25px", width: "25px", height: '25px', margin: '20px', display: 'inline-block' }}>
           <ResearchSvg />
           <FaBook />
+
+
           <GiBookCover />
+
+
           <GiBookPile />
           <GiBookshelf />
           <GiOpenBook />
@@ -85,7 +89,9 @@ const Research = () => {
         <div style={{ fontSize: "25px", width: "25px", height: '25px', margin: '20px', display: 'inline-block' }}>
           <GiPublicSpeaker />
           <GiTeacher />
+
           <FaChalkboardTeacher />
+
           <FaChalkboard />
           <TeachingSvg />
         </div>
@@ -100,7 +106,9 @@ const Research = () => {
           <FaPortrait />
           <FaUserAlt />
           <PortfolioSvg />
+
           <FaUserCircle />
+
           <FaUserTag />
           <FaUserTie />
           <FaRegUserCircle />
@@ -123,7 +131,9 @@ const Research = () => {
           <TiHomeOutline />
           <GoHome />
           <AiOutlineHome />
+
           <TiHome />
+
           <TiHomeOutline />
         </div>
         <br />
@@ -135,6 +145,7 @@ const Research = () => {
         <h2>Contact</h2>
         <div style={{ fontSize: "25px", width: "25px", height: '25px', margin: '20px', display: 'inline-block' }}>
           <MdEmail />
+          
           <AiOutlineMail />
           <AiTwotoneMail />
           <IoMdMail />
