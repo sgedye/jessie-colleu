@@ -3,7 +3,8 @@ import TeachingSvg from "../assets/svg/teachingSvg";
 import PortfolioSvg from "../assets/svg/portfolioSvg";
 import CalendarSvg from "../assets/svg/calendarSvg";
 import ResearchSvg from "../assets/svg/researchSvg";
-
+import { FaCalendarAlt, FaBook, FaUserAlt, FaPortrait, FaChalkboard, FaChalkboardTeacher } from "react-icons/fa";
+import { GiTeacher, GiBookCover } from 'react-icons/gi';
 const Research = () => {
   return (
     <section className="page-wrapper">
@@ -29,6 +30,22 @@ const Research = () => {
           <PortfolioSvg />
           <CalendarSvg />
           <ResearchSvg />
+        </div>
+        <br />
+        <br />
+        <hr />
+        <hr />
+        <br />
+        <br />
+        <div style={{ fontSize: "25px", marginLeft: '20px', display: 'inline-block' }}>
+          <FaCalendarAlt />
+          <FaBook />
+          <GiBookCover />
+          <FaPortrait />
+          <FaUserAlt />
+          <FaChalkboard />
+          <FaChalkboardTeacher />
+          <GiTeacher />
         </div>
       </div>
     </section>
