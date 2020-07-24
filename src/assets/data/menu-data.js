@@ -1,3 +1,5 @@
+// import eventsCalendar from '../svg/calendar.svg'
+
 export default [
   { id: 0, title: 'Home', path: '/', icon: 'ion-ios-home' },
   { id: 1, title: 'About', path: '/about', icon: 'ion-ios-business' },
