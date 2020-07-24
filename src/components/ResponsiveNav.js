@@ -22,18 +22,20 @@ function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo
         style={{ background: background || "#222" }}
         className={navOpen ? "active" : ""}
       >
-        {navLinks.map((link) => (
+        {navLinks.map(({ id, path, title, icon }) => (
           <li
-            key={link.id}
-            onMouseEnter={() => setHoverIndex(link.id)}
+            key={id}
+            onMouseEnter={() => setHoverIndex(id)}
             onMouseLeave={() => setHoverIndex(-1)}
             style={{
-              background: hoverIndex === link.id ? hoverBackground || "#999" : "",
+              background: hoverIndex === id ? hoverBackground || "#999" : "",
             }}
           >
-            <Link to={link.path} style={{ color: linkColor || "#eee" }} onClick={() => setNavOpen(false)}>
-              {link.title}
-              <i className={link.icon} />
+            <Link to={path} style={{ color: linkColor || "#eee" }} onClick={() => setNavOpen(false)}>
+              {title}
+              {icon}
+              {/* { <FaCalendarAlt />} */}
+              {/* <i className={icon} /> */}
             </Link>
           </li>
         ))}
