@@ -8,6 +8,7 @@ import { GiPoliceBadge, GiBrain } from "react-icons/gi"
 function Home() {
   return (
     <Wrapper className="page-wrapper">
+      <h1 className="section-title">Home:</h1>
       <img src={HomeImage} alt="jessie" style={{ width: "100%", maxWidth: "300px" }}/>
       <h2>Mission</h2>
       <p>

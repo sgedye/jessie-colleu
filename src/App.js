@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <ResponsiveNav
           navLinks={MenuData}
-          background="#0078d4"
+          background="#002fa7"
           hoverBackground="#0000ff"
           linkColor="#fff"
           logo={logo}

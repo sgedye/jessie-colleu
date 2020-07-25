@@ -36,11 +36,8 @@ const Contact = () => {
           <h2 className={styles.formTitle}>Contact Jessica</h2>
           <h3 className={styles.formSubtitle}>Please fill out the form below:</h3>
         </div>
-        <div className={styles.postalColours}></div>
         <div className={styles.formBody}>
-
-          <div id="form-error"></div>
-
+          {/* <div id="form-error"></div> */}
           <form id="contact-form" action="/" method="GET">
             <ul className={styles.list}>
               <li className={styles.listItem}>
@@ -65,7 +62,6 @@ const Contact = () => {
             </ul>
           </form>
         </div>
-        <div className={styles.postalColours}></div>
       </div>
       <br /><br />
       <hr /><hr />
@@ -75,6 +71,10 @@ const Contact = () => {
         Add something else on this page,<br /> 
         maybe location or social media.<br />
         Maybe add aboriginal 'support' flags or something.
+
+        ** Add twitter and linked in...
+        ** Work email jessica.colleuterradas@sa.gov.au
+        ** Form should go to : Jessica.colleut@gmail.com
       </h1>
       <br /><br /><hr /><hr /><br />
       <h1 style={{ fontSize: "1.2em", color: "red" }}>Add a reCapture https://www.npmjs.com/package/react-recaptcha</h1>

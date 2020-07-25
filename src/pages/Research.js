@@ -20,6 +20,7 @@ import Image from '../assets/images/aaaaa.jpeg'
 const Research = () => {
   return (
     <section className="page-wrapper">
+      <h1 className="section-title">Research:</h1>
       <div>
         <p>Research Research Research Research Research Research Research Research</p>
         <p>Research Research Research Research Research Research Research Research</p>

@@ -8,7 +8,7 @@ import { FaMapMarkerAlt, FaExternalLinkAlt } from "react-icons/fa"
 const Events = () => {
   return (
     <section className="page-wrapper">
-      <h2>Events:</h2>
+      <h1 className="section-title">What's on:</h1>
       <br />
       {
         eventData.map(({ id, name, date, location, image, description, links }) => (

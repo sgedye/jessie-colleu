@@ -7,7 +7,7 @@ import JessicaImage from "../assets/images/jessica-blue.jpeg"
 function About() {
   return (
     <section className="page-wrapper">
-      <h2 className="section-title">About Jessica Potes:</h2>
+      <h1 className="section-title">About Jessica Potes:</h1>
       <div className={styles.container}>
         <div className={styles.imgDiv}>
           <img className={styles.image} src={JessicaImage} alt="Jessica teaching in a blue dress" />
