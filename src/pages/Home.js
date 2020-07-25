@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import HeroImage from "../assets/images/hero-image.jpeg";
+import HomeImage from "../assets/images/home.jpeg";
 
 import { FaHandshake, FaAward } from "react-icons/fa"
 import { GiPoliceBadge, GiBrain } from "react-icons/gi"
@@ -8,7 +8,7 @@ import { GiPoliceBadge, GiBrain } from "react-icons/gi"
 function Home() {
   return (
     <Wrapper className="page-wrapper">
-      <img src={HeroImage} alt="jessie" width="200px" />
+      <img src={HomeImage} alt="jessie" style={{ width: "100%", maxWidth: "300px" }}/>
       <h2>Mission</h2>
       <p>
         I work with schools to eradicate adolescent illiteracy so that no
@@ -71,6 +71,8 @@ function Home() {
       <strong style={{ fontSize: "1.2em", color: "blue" }}>
         JESS: Write a paragraph about my life philosophy/moral purpose.
       </strong>
+      <br /><br /><hr /><hr /><br />
+      <strong style={{ fontSize: "1.2em", color: "red" }}>I'll update this section again (formatting) once all the text is provided.</strong>
     </Wrapper>
   )
 }

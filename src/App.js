@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Research from './pages/Research';
 import Contact from './pages/Contact';
-import Tabs from './components/Tabs';
 import Footer from './components/Footer';
 import Events from './pages/Events';
 import Resources from './pages/Resources';
@@ -26,7 +25,6 @@ function App() {
           linkColor="#fff"
           logo={logo}
         />
-        <Tabs />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/contact" component={Contact} />

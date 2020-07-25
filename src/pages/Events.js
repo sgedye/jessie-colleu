@@ -7,7 +7,7 @@ import { FaMapMarkerAlt, FaExternalLinkAlt } from "react-icons/fa"
 
 const Events = () => {
   return (
-    <section className="page-wrapper" style={{ background: 'lightblue'}}>
+    <section className="page-wrapper">
       <h2>Events:</h2>
       <br />
       {
@@ -15,7 +15,7 @@ const Events = () => {
           <div key={id} className={styles.eventCard}>
             <div className={styles.header}>
               <p className={styles.name}>{name}</p>
-              <code className={styles.date}>{date}</code>
+              <p className={styles.date}>{date}</p>
               <p className={styles.location}>
                 <FaMapMarkerAlt />
                 {location}
