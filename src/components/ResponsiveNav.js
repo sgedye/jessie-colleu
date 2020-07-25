@@ -12,14 +12,14 @@ function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo
   return (
     <nav
       className="responsive-nav"
-      style={{ background: background || "#222" }}
+      style={{ backgroundColor: background || "#222" }}
     >
       <figure onClick={() => setNavOpen(!navOpen)}>
         <img id="logo" src={logo} height="45px" width="45px" alt="Logo-Nav-Toggler" />
       </figure>
       <h1>Jessica</h1>
       <ul
-        style={{ background: background || "#222" }}
+        style={{ backgroundColor: background || "#222" }}
         className={navOpen ? "active" : ""}
       >
         {navLinks.map(({ id, path, title, icon }) => (

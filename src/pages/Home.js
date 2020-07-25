@@ -73,6 +73,10 @@ function Home() {
       </strong>
       <br /><br /><hr /><hr /><br />
       <strong style={{ fontSize: "1.2em", color: "red" }}>I'll update this section again (formatting) once all the text is provided.</strong>
+      <br /><br />
+      <br /><br />    
+      <br /><br />
+      <br /><br />
     </Wrapper>
   )
 }
