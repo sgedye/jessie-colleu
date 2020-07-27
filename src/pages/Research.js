@@ -1,4 +1,9 @@
 import React from "react";
+
+import newsletterAase from "../assets/doc/AASE_Newsletter_Sem1_2020.pdf";
+
+
+
 import TeachingSvg from "../assets/svg/teachingSvg";
 import PortfolioSvg from "../assets/svg/portfolioSvg";
 import CalendarSvg from "../assets/svg/calendarSvg";
@@ -17,10 +22,14 @@ import { MdEmail } from 'react-icons/md'
 import Image from '../assets/images/aaaaa.jpeg'
 
 
+
 const Research = () => {
   return (
     <section className="page-wrapper">
       <h1 className="section-title">Research:</h1>
+      <br /><br /><hr /><br />
+      <a href={newsletterAase} target="_blank" rel="noreferrer noopener">AASE Newsletter - Semester 1, 2020</a>
+      <br /><br /><hr /><br />      
       <div>
         <p>Research Research Research Research Research Research Research Research</p>
         <p>Research Research Research Research Research Research Research Research</p>

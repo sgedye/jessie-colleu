@@ -11,10 +11,7 @@ function Home() {
       <h1 className="section-title">Home:</h1>
       <img src={HomeImage} alt="jessie" style={{ width: "100%", maxWidth: "300px" }}/>
       <h2>Mission</h2>
-      <p>
-        I work with schools to eradicate adolescent illiteracy so that no
-        student leaves school unable to read well.
-      </p>
+      <p>Ensuring that all students, including those with learning difficulties or from disadvantaged backgrounds, gain access to high-quality education suited to their needs.</p>
       <h2>Vision</h2>
       <p>
         All schools have the moral obligation to ensure that all students,
@@ -29,7 +26,7 @@ function Home() {
             </td>
             <td>
               <p>
-                Commitment I work to ensure that literacy is the highest
+                <strong>Commitment:</strong> I work to ensure that literacy is the highest
                 priority in education.
               </p>
             </td>
@@ -40,7 +37,7 @@ function Home() {
             </td>
             <td>
               <p>
-                Integrity I am committed to honest, transparent relationships
+                <strong>Integrity:</strong> I am committed to honest, transparent relationships
                 and accurate objective use of data.
               </p>
             </td>
@@ -51,7 +48,7 @@ function Home() {
             </td>
             <td>
               <p>
-                Knowledge accumulated scientific knowledge is the basis of
+                <strong>Knowledge:</strong> accumulated scientific knowledge is the basis of
                 excellent practice.
               </p>
             </td>
@@ -62,8 +59,7 @@ function Home() {
             </td>
             <td>
               <p>
-                Partnership I work collaboratively with partner schools, as part
-                of a wider movement, to achieve my mission.
+                <strong>Partnership:</strong> I work collaboratively with partner schools and stakeholders, as part of a wider movement, to lift literacy outcomes in students so that no one leaves school unable to read.
               </p>
             </td>
           </tr>

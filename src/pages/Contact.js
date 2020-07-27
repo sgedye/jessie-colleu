@@ -63,14 +63,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <br /><br />
-      <hr /><hr />
-      <br /><br />
-      <h1 style={{ fontSize: '2em', color: 'darkblue', textShadow: '1px 2px white'}}>
-        Maybe add aboriginal 'support' flags or something.<br /><br />
-        ** Work email jessica.colleuterradas@sa.gov.au<br />
-        ** Form should go to : jessica.colleut@gmail.com
-      </h1>
       <br /><br /><hr /><hr /><br />
       <h1 style={{ fontSize: "1.2em", color: "red" }}>Add a reCapture https://www.npmjs.com/package/react-recaptcha</h1>
       <h1 style={{ fontSize: "1.2em", color: "blue" }}>Need a domain first.</h1>

@@ -10,29 +10,31 @@ const Resources = () => {
         <br />
         <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>Layout</strong>
         <ul>
-          <li>Icon shadow and alignment</li>
+          <li style={{ textDecoration: 'line-through' }}>Menu icon re-alignment</li>
+          <li style={{ color: 'orange' }}>Update the header to Name or Page Title -- to decide later</li>
           <li>React Routing</li>
-          <li>Add social icons</li>
-          <li>Add background colour / design (marble/off-white)</li>
-          <li></li>
+          <li style={{ textDecoration: 'line-through' }}>Add social icons</li>
+          <li style={{ color: 'orange' }}>Add background colour / design (marble/off-white)</li>
+          <li style={{ color: 'orange' }}>Maybe add an aboriginal 'support' flags or something.</li>
         </ul>
         <br />
         <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>Home</strong>
         <ul>
-          <li>Format page - waiting for info</li>
+          <li style={{ color: 'orange' }}>Format page - waiting for info (JESS: to write a paragraph about my life philosophy/moral purpose)</li>
           <li></li>
         </ul>
         <br />
         <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>About</strong>
         <ul>
-          <li>Update new info</li>
+          <li style={{textDecoration: 'line-through'}}>Update new info</li>
+          <li>Change photo?</li>
           <li></li>
         </ul>
         <br />
         <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>Research</strong>
         <ul>
           <li>Add info similar to events page</li>
-          <li></li>
+          <li style={{ textDecoration: 'line-through' }}>Add AASE newsletter</li>
           <li></li>
         </ul>
         <br />
@@ -44,13 +46,13 @@ const Resources = () => {
         <br />
         <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>Consulting</strong>
         <ul>
-          <li>Waiting for info</li>
+          <li style={{ color: 'orange' }}>Waiting for info</li>
           <li></li>
         </ul>
         <br />
         <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>Resources</strong>
         <ul>
-          <li>Waiting for info</li>
+          <li style={{ color: 'orange' }}>Waiting for info</li>
           <li></li>
         </ul>
         <br />
@@ -58,6 +60,8 @@ const Resources = () => {
         <ul>
           <li>Update form with validation</li>
           <li>Add posting form logic</li>
+          <li>Form should go to : jessica.colleut@gmail.com</li>
+          <li></li>
         </ul>
         <br />
         <strong style={{ fontWeight: 'bold', fontSize: '1.2em' }}>All</strong>
