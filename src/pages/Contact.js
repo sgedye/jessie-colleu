@@ -66,15 +66,10 @@ const Contact = () => {
       <br /><br />
       <hr /><hr />
       <br /><br />
-      <h1 style={{ fontSize: '2em', color: 'darkred', textShadow: '1px 2px white'}}>
-        Change the header image of the form<br />
-        Add something else on this page,<br /> 
-        maybe location or social media.<br />
-        Maybe add aboriginal 'support' flags or something.
-
-        ** Add twitter and linked in...
-        ** Work email jessica.colleuterradas@sa.gov.au
-        ** Form should go to : Jessica.colleut@gmail.com
+      <h1 style={{ fontSize: '2em', color: 'darkblue', textShadow: '1px 2px white'}}>
+        Maybe add aboriginal 'support' flags or something.<br /><br />
+        ** Work email jessica.colleuterradas@sa.gov.au<br />
+        ** Form should go to : jessica.colleut@gmail.com
       </h1>
       <br /><br /><hr /><hr /><br />
       <h1 style={{ fontSize: "1.2em", color: "red" }}>Add a reCapture https://www.npmjs.com/package/react-recaptcha</h1>

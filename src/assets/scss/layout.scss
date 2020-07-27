@@ -40,6 +40,8 @@ body {
     justify-content: center; // Supported in Flex Layout
     align-items: center;
     height: 200px;
+
+    //maybe fade the background a bit lighter here.
   }
   .copywrite {
     @include flexbox();
