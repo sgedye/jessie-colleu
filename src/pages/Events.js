@@ -25,7 +25,7 @@ const Events = () => {
               <img className={styles.image} src={image} alt={name} />
             </div>
             <div className={styles.main}>
-              <p className={styles.description}>{description}</p>
+              <div className={styles.description}>{description}</div>
               {
                 links.map(({ id, title, src }) => (
                   <a key={id} className={styles.link} href={src} target="_blank" rel="noreferrer noopener">

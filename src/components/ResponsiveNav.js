@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo }) {
   const [hoverIndex, setHoverIndex] = useState(-1)
@@ -31,14 +31,14 @@ function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo
               background: hoverIndex === id ? hoverBackground || "#999" : "",
             }}
           >
-            <Link to={path} style={{ color: linkColor || "#eee" }} onClick={() => setNavOpen(false)}>
+            <NavLink to={path} exact style={{ color: linkColor || "#eee" }} activeStyle={{ color: 'green' }} onClick={() => setNavOpen(false)}>
               {title}
               {/* <i style={{ textShadow: "1px 3px red" }} >{icon}</i> */}
               {icon}
               {/* { <FaCalendarAlt />} */}
               {/* <i className={icon} /> */}
               {/* <i class="fa fa-user-circle" aria-hidden="true"></i> */}
-            </Link>
+            </NavLink>
           </li>
         ))}
       </ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 
 import MenuData from '../src/assets/data/menu-data';
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <ResponsiveNav
           navLinks={MenuData}
           background="#002fa7"
@@ -34,7 +34,7 @@ function App() {
           <Route path="/consulting" component={Consulting} />
           <Route path="/about" component={About} />
         </Switch>
-      </BrowserRouter>
+      </Router>
       <Footer />
     </>
   );

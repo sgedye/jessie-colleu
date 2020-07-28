@@ -193,10 +193,17 @@ export default [
     location: "Adelaide, South Australia",
     image: literacy2020,
     description: (
-      <p>
-        Educational leaders and teachers from the Department for Education, Catholic Education SA and the Association of Independent Schools of SA are invited to attend the next Literacy Guarantee Conference which will feature a range of leading experts in literacy to support leaders and teachers more effectively meet the needs of all students.<br /><br />
-        Keynote address: Dr Tanya Serry. Senior Lecturer, Speech Pathology, La Trobe University. Jessica presented two 90-minute workshops on "The key components of an effective literacy program to support struggling adolescent readers" and "Using classroom videos to deconstruct and analyse teacher practice"
-      </p>
+      <>
+        <p>
+          Educational leaders and teachers from the Department for Education, Catholic Education SA and the Association of Independent Schools of SA are invited to attend the next Literacy Guarantee Conference which will feature a range of leading experts in literacy to support leaders and teachers more effectively meet the needs of all students.<br /><br />
+          Keynote address: Dr Tanya Serry. Senior Lecturer, Speech Pathology, La Trobe University.<br /><br />
+          Jessica presented two 90-minute workshops on:
+        </p>
+        <ol>
+          <li>"The key components of an effective literacy program to support struggling adolescent readers"</li>
+          <li>"Using classroom videos to deconstruct and analyse teacher practice"</li>
+        </ol>
+      </>
     ),
     links: [
       {
@@ -208,7 +215,7 @@ export default [
   },
   {
     id: "event-leaders-2019",
-    name: "Leaders of today for leaders of tomorrow Conference 2019",
+    name: "Leaders of Today for Leaders of Tomorrow Conference 2019",
     date: "October 19-20, 2019",
     location: "Sydney, New South Wales",
     image: leadersConf,
