@@ -1,13 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
-.formContainer {  
+.mainContent {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: -ms-column;
+  flex-direction: -moz-column;
+  flex-direction: column;
   width: 100%;
-  max-width: 475px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+.nonFormSection, .formSection {
+  width: 100%;
+  min-width: 200px;
+  max-width: 500px;
   background-color: white;
   border: 1px solid #333;
   border-radius: 1rem;
 }
+.nonFormSection {
+  margin: 0 auto;
+  text-align: center;
+}
+.formSection {
+  margin: 1rem auto 0;
+}
+
+.contactDescription {
+  padding: 1rem;
+  font-size: 1.2em;
+}
+.headshot {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+
 .formHeader {
   width: 100%;
   padding: 1.5em;
@@ -71,7 +100,16 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .formContainer {  
+  .mainContent {
+    flex-direction: -ms-row-reverse;
+    flex-direction: -moz-row-reverse;
+    flex-direction: row-reverse;
     margin-top: 2em;
+  }
+  .nonFormSection {
+    max-width: 300px;
+  }
+  .formSection {
+    margin: 0 auto;
   }
 }

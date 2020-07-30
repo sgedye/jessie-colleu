@@ -33,11 +33,7 @@ function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo
           >
             <NavLink to={path} exact style={{ color: linkColor || "#eee" }} activeStyle={{ color: 'green' }} onClick={() => setNavOpen(false)}>
               {title}
-              {/* <i style={{ textShadow: "1px 3px red" }} >{icon}</i> */}
               {icon}
-              {/* { <FaCalendarAlt />} */}
-              {/* <i className={icon} /> */}
-              {/* <i class="fa fa-user-circle" aria-hidden="true"></i> */}
             </NavLink>
           </li>
         ))}

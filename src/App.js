@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import logo from './logo.svg';
 
 import MenuData from '../src/assets/data/menu-data';
@@ -13,31 +14,28 @@ import Events from './pages/Events';
 import Resources from './pages/Resources';
 import Consulting from './pages/Consulting';
 
-function App() {
-
-  return (
-    <>
-      <Router>
-        <ResponsiveNav
-          navLinks={MenuData}
-          background="#002fa7"
-          hoverBackground="#0000ff"
-          linkColor="#fff"
-          logo={logo}
-        />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/research" component={Research} />
-          <Route path="/events" component={Events} />
-          <Route path="/resources" component={Resources} />
-          <Route path="/consulting" component={Consulting} />
-          <Route path="/about" component={About} />
-        </Switch>
-      </Router>
-      <Footer />
-    </>
-  );
-};
+const App = () => (
+  <div id="app">
+    <Router>
+      <ResponsiveNav
+        navLinks={MenuData}
+        background="#002fa7"
+        hoverBackground="#0000ff"
+        linkColor="#fff"
+        logo={logo}
+      />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/research" component={Research} />
+        <Route path="/events" component={Events} />
+        <Route path="/resources" component={Resources} />
+        <Route path="/consulting" component={Consulting} />
+        <Route path="/about" component={About} />
+      </Switch>
+    </Router>
+    <Footer />
+  </div>
+);
 
 export default App;

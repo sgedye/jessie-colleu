@@ -5,7 +5,6 @@ nav.responsive-nav {
   height: 60px;
   width: 100vw;
   text-shadow: 0 0 5px #555, 1px 1px #111;
-  border-collapse: separate; // Need to use for box-shadow to work on IE9+
   box-shadow: 2px 2px 2px #ccc;
   z-index: 99;
   figure {

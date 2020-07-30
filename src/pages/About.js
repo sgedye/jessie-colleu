@@ -2,7 +2,8 @@ import React from "react";
 
 import styles from "../assets/scss/about.module.scss";
 
-import JessicaImage from "../assets/images/jessica-blue.jpeg"
+// import JessicaImage from "../assets/images/jessica-blue.jpeg"
+import Jessica from "../assets/images/about/jessica.jpg";
 
 function About() {
   return (
@@ -10,7 +11,7 @@ function About() {
       <h1 className="section-title">About Jessica Potes:</h1>
       <div className={styles.container}>
         <div className={styles.imgDiv}>
-          <img className={styles.image} src={JessicaImage} alt="Jessica teaching in a blue dress" />
+          <img className={styles.image} src={Jessica} alt="Jessica in a blue dress" />
         </div>
         <div className={styles.textDiv}>
           <p className={styles.text}>
