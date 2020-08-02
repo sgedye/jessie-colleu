@@ -8,7 +8,7 @@ const Contact = () => {
 
   return (
     <section className="page-wrapper">
-      <h1 className="section-title">We'd love to hear from you:</h1>
+      <h1 className="section-title">Let me know if I can help you</h1>
       <div className={styles.mainContent}>
         <div className={styles.nonFormSection}>
           <img
@@ -16,11 +16,7 @@ const Contact = () => {
             src={headshot}
             alt="Headshot of Jessica Colleu Terradas"
           />
-          <p className={styles.contactDescription}>
-            To get in touch with Jessica, --for X, Y, Z-- please fill out the
-            form below:.... otherwise...to connect on social media, find her
-            twitter/linkedin/emial at the bottom of the page.
-          </p>
+          <p className={styles.contactDescription}>I can assist in building teacher’s capacities by helping schools merge the latest research from cognitive science into classroom practice to lift student outcomes and engagement. I can also provide advice about pedagogy, informed-based instructional strategies, early reading instruction, adolescent literacy, and procedures for implementing successful literacy and numeracy interventions for students with learning difficulties.Let me know if I can help you. Contact me and I will be in touch with you shortly.</p>
         </div>
         <div className={styles.formSection}>
           <div className={styles.formHeader}>
