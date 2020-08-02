@@ -20,17 +20,22 @@ const Resources = () => {
           <li style={{ color: "orange" }}>
             Update the header to Name or Page Title -- to decide later
           </li>
-          <li>React Routing</li>
+          <li style={{ textDecoration: "line-through" }}>React Routing</li>
           <li style={{ textDecoration: "line-through" }}>Add social icons</li>
           <li style={{ color: "orange" }}>
             Add background colour / design (marble/off-white) -- Jess to choose
           </li>
           <li style={{ color: "orange" }}>
-            Maybe add an aboriginal 'support' flags or something. -- Leave for Now
+            Maybe add an aboriginal 'support' flags or something. -- Leave for
+            Now
           </li>
         </ul>
         <br />
-        <strong style={{ fontWeight: "bold", fontSize: "1.2em", color: 'orange' }}>Home</strong>
+        <strong
+          style={{ fontWeight: "bold", fontSize: "1.2em", color: "orange" }}
+        >
+          Home
+        </strong>
         <ul>
           <li style={{ color: "orange" }}>
             Format page - waiting for info ("JESS: to write a paragraph about my
@@ -48,7 +53,9 @@ const Resources = () => {
           <li style={{ textDecoration: "line-through" }}>Change photo</li>
         </ul>
         <br />
-        <strong style={{ fontWeight: "bold", fontSize: "1.2em", color: 'orange' }}>
+        <strong
+          style={{ fontWeight: "bold", fontSize: "1.2em", color: "orange" }}
+        >
           Research
         </strong>
         <ul>
@@ -61,7 +68,9 @@ const Resources = () => {
           </li>
         </ul>
         <br />
-        <strong style={{ fontWeight: "bold", fontSize: "1.2em", color: 'orange' }}>
+        <strong
+          style={{ fontWeight: "bold", fontSize: "1.2em", color: "orange" }}
+        >
           Events
         </strong>
         <ul>
@@ -79,7 +88,8 @@ const Resources = () => {
         <ul>
           <li style={{ color: "orange" }}>Waiting for info</li>
           <li style={{ color: "orange" }}>
-            Probably merge/delete this page with the contact page for first release -- waiting on Jess' thoughts
+            Probably merge/delete this page with the contact page for first
+            release -- waiting on Jess' thoughts
           </li>
           <li style={{ color: "orange" }}>
             Add booking functionality at a later date.
@@ -105,7 +115,9 @@ const Resources = () => {
           Contact
         </strong>
         <ul>
-          <li style={{ color: 'orange' }}>Jess to write a "contact me" descrition</li>
+          <li style={{ color: "orange" }}>
+            Jess to write a "contact me" descrition
+          </li>
           <li style={{ color: "orange" }}>
             Update form with validation -- waiting on Jess's thoughts
           </li>

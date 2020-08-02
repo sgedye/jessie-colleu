@@ -257,7 +257,7 @@ export default [
   {
     id: "event-study-tour-2019",
     name: "Teaching Fellow - Study Tour",
-    date: "July, 2019",
+    date: "July 6-12, 2019",
     location: "Singapore, Singapore",
     image: studyTour2019,
     description: (

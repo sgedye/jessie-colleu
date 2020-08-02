@@ -11,7 +11,7 @@ import Research from './pages/Research';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Events from './pages/Events';
-import Resources from './pages/Resources';
+// import Resources from './pages/Resources';
 import Consulting from './pages/Consulting';
 
 const App = () => (
@@ -29,7 +29,7 @@ const App = () => (
         <Route path="/contact" component={Contact} />
         <Route path="/research" component={Research} />
         <Route path="/events" component={Events} />
-        <Route path="/resources" component={Resources} />
+        {/* <Route path="/resources" component={Resources} /> */}
         <Route path="/consulting" component={Consulting} />
         <Route path="/about" component={About} />
       </Switch>

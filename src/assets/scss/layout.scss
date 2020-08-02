@@ -21,7 +21,7 @@ body {
   &::after {
     content: '';
     position: absolute;
-    bottom: -50px;
+    bottom: -49px;
     left: 0px;
     background-image: url('../svg/curve.svg');
     background-size: cover;
@@ -80,6 +80,11 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .page-wrapper {
+    .section-title { font-size: 2.5em; }
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .page-wrapper {
