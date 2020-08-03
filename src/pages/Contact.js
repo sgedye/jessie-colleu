@@ -83,6 +83,14 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <br /><br /><br />
+      <div>
+        <strong style={{ background: 'yellow' }}>TODO: Jess to get a domain</strong>
+      </div><div>
+        <strong style={{ background: 'yellow' }}>TODO: Jess to advise if she wants error checking and error messages displayed and if she wants the colours. See <a href="https://contact-component.netlify.app/">other contact form</a> and start typing.</strong>
+      </div><div>
+        <strong style={{ background: 'yellow' }}>TODO: Shaun to finish form and add email redirect - (last thing b4 going live)</strong>
+      </div>
     </section>
   )
 };

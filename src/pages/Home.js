@@ -68,6 +68,14 @@ function Home() {
           Jessica's work truly provides her with a deep sense of purpose and reflects her values, energy and personality. Through her motivation, grit, effort, and friendly and respectful relationships, She has a positive influence. She strives to blossom into an achiever and inspirational leader by allowing the various petals of her identity to unfold. Every day she cultivates her self-confidence and professionalism, aiming to turn her vision into tangible and sustainable outcomes. As Aristotle said: “Where the needs of the world and your talents cross, there lies your vocation.”
         </p>
       </div>
+      <br /><br /><br />
+      <div>
+        <strong style={{background: 'yellow'}}>TODO: Shaun to check FB for background images</strong>
+      </div><div>
+        <strong style={{background: 'yellow'}}>TODO: Jessica to send logo or leave the React one (top left atom)</strong>
+      </div><div>
+        <strong style={{background: 'yellow'}}>TODO: Jessica to clarify philosophy position across devices</strong>
+      </div>
     </section>
   );
 };
