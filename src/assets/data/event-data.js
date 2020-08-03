@@ -1,10 +1,13 @@
 import React from "react";
+import dsf2017 from "../images/events/dsf2017.png";
+import dsf2019 from "../images/events/dsf2019.png";
 import leadersConf from "../images/events/leadersConf.png";
 import literacy2020 from "../images/events/literacy2020.png";
 import literacy2021 from "../images/events/literacy2021.png";
 import perthSSP from "../images/events/perthSSP.jpeg";
 import researchEd from "../images/events/researchEd.png";
 import researchEd2019 from "../images/events/researchEd2019.png";
+import risingWomen2019 from "../images/events/rising-women2019.jpg";
 import studyTour2019 from "../images/events/studyTour2019.png";
 import webinars2020 from "../images/events/webinars2020.jpg";
 import uniteSPLD from "../images/events/uniteSPLD.png";
@@ -53,13 +56,13 @@ export default [
   },
   {
     id: "event-0",
-    name: "ResearchED 2020",
+    name: "ResearchED Conference 2020",
     date: "October 17, 2020 (Full Day)",
     location: "Perth, Western Australia",
     image: researchEd,
     description: (
       <p>
-        The first researchED Perth, Western Australia in October 2020. This
+        The first ResearchED Perth, Western Australia in October 2020. This
         event provides an exciting opportunity for teachers, researchers and
         academics to get together to discuss ways in which education in
         Australia can use evidence to drive better teaching and learning.
@@ -235,14 +238,14 @@ export default [
   },
   {
     id: "event-brighton-2019",
-    name: "researchED Conference",
+    name: "ResearchED Conference 2019",
     date: "August 24, 2019",
     location: "Brighton, Victoria",
     image: researchEd2019,
     description: (
       <p>
         ResearchED returns to Australia with another day of evidence, discussion, challenge, networking and provocation. Education is in a period of huge upheaval, as the evidence revolution continues. Old ways of working are now being scrutinised, criticised, updated and improved, and we’ve started to see dynamic and exciting new ways of teacher-led involvement of rebooting the classroom.<br /><br />
-        The speaker schedule and tickets can be bought on the <a href="https://researched.org.uk/event/researched-melbourne-2019/" target="_blank" rel="noopener noreferrer">researchED event page</a>. 
+        The speaker schedule and tickets can be bought on the <a href="https://researched.org.uk/event/researched-melbourne-2019/" target="_blank" rel="noopener noreferrer">ResearchED event page</a>. 
         Jessica presented a workshop titled "Remediating adolescent literacy using correcting Reading and Spelling Mastery (Grades 7 to 10)".
       </p>
     ),
@@ -275,6 +278,81 @@ export default [
       },
     ],
   },
+  {
+    id: "event-rising-women-2019",
+    name: "Rising Leaders 2019 Program",
+    date: "May 13-15 & June 28, 2019",
+    location: "Perth, Western Australia",
+    image: risingWomen2019,
+    description: (
+      <>
+        <p>As part of the Department’s Women in Leadership strategy, the Leadership Institute is offering a Rising Leaders program. Up to 20 places are available for this program, which aims to enhance participants’ knowledge of, and confidence in, their own leadership capabilities, and provide learning opportunities that contribute to personal and professional growth.</p>
+        <br />
+        <p>Photo of Stephen Baxter, Deputy Director General, Schools with Jessica at the Women in Leadership Alumni Event, June 28th, 2019.</p>
+      </>
+    ),
+    links: [
+      {
+        id: "",
+        title: "",
+        src: ""
+      },
+    ],
+  },
+  {
+    id: "event-lll_conf-2019",
+    name: "Language, Literacy & Learning Conference 2019",
+    date: "April 4-6, 2019",
+    location: "Perth, Western Australia",
+    image: dsf2019,
+    description: (
+      <>
+        <p>Three days, up to 100 speakers, great resources and an amazing opportunity for anyone with an interest in improving literacy and numeracy outcomes for all students. This incredible event is not to be missed!</p>
+        <br />
+        <p>The Language, Literacy and Learning Conference provides a wealth of information on the factors influencing the successful acquisition of skills in language, literacy and numeracy. It is particularly relevant to classroom teachers, school principals and administrators, school psychologists, speech pathologists, occupational therapists, allied health professionals, tutors, parents and other key stakeholders concerned with the effective education and support of all school-aged children - including those with learning difficulties.</p>
+        <br />
+        <p>Jessica presented a workshop titled Connecting maths: Developing numeracy and mathematical literacy in at-risk students.</p>
+      </>
+    ),
+    links: [
+      {
+        id: "event-lll_conf-2019-link-0",
+        title: "View Program",
+        src: "https://literacylanguageconf.com/pdf/DSF8062-Conference-program-FINAL.pdf"
+      },
+    ],
+  },
+  {
+    id: "event-lll_conf-2017",
+    name: "Language, Literacy & Learning Conference 2017",
+    date: "March 30 - April 1, 2019",
+    location: "Perth, Western Australia",
+    image: dsf2017,
+    description: (
+      <>
+        <p>The conference was run by <a href="https://dsf.net.au/" target="_blank" rel="noopener noreferrer">DSF Literacy and Clinical Services</a> (the Dyslexia-SPELD Foundation Western Australia), a centre of excellence providing services in the field of learning difficulties and learning disorders.</p>
+        <br />
+        <p>The conference involved addresses from six keynote speakers, including Professor Kenn Apel, Professor Kate Nation and Professor Pamela Snow, in addition to eight streams of concurrent sessions. In total, 70 presentations (including keynote addresses, workshops, symposia, breakout sessions and program presentations) were completed by more than 80 presenters over the three days of the conference. The speakers presented key research findings regarding multiple aspects of learning and literacy to better inform delegates on how best to teach and support the literacy development of all students.</p>
+        <br />
+        <p>The need for up-to-date high quality professional learning opportunities for teachers and allied health professionals keen to reverse declining literacy and numeracy outcomes in Australia has been well-documented. DSF provides extensive professional support to schools and identifies the need to bring international leaders to Australia to share their knowledge and expertise.</p>
+        <br />
+        <p>Jessica presented a workshop titled Successful literacy intervention in a Western Australian secondary school.</p>
+      </>
+    ),
+    links: [
+      {
+        id: "event-lll_conf-2017-link-0",
+        title: "More Information",
+        src: "https://www.ianpotter.org.au/knowledge-centre/case-studies/dsf-language-literacy-and-learning-conference/"
+      },
+      {
+        id: "event-lll_conf-2017-link-1",
+        title: "Guide",
+        src: "https://www.speld.org.au/files/resources/language_literacy_and_learning_conference_2017.pdf"
+      },
+    ],
+  },
+
 
 
 
@@ -297,7 +375,7 @@ export default [
   //     },
   //   ],
   // },
-  // },
+
   // {
   //   id: "event-",
   //   name: "",
