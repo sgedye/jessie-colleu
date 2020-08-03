@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.headerTitle {
+  font-size: 1.5em;
+}
+.headerImages {
+  display: flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+.headerLogo {
+  height: 99px;
+  width: auto;
+  margin: 1rem 0.5rem;
+}
+
+.mainContent {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 1rem auto;
+}
+.mainText {
+  font-size: 1.2em;
+  margin: 1rem 0;
+}
+.mainImage {
+  width: 100%;
+  max-width: 100%;
+  margin: 1rem 0;
+}
+.tweets {
+  width: 100%;
+  display: block;
+  img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mainContent { width: 80%; }
+}
+
+@media screen and (min-width: 768px) {
+  .headerLogo {
+    height: 198px;
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tweets {
+    display: inline-block;
+    img { width: 50%; }
+  }
+}

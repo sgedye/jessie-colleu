@@ -8,7 +8,7 @@ const Contact = () => {
 
   return (
     <section className="page-wrapper">
-      <h1 className="section-title">Let me know if I can help you</h1>
+      <h1 className="section-title">Let me know if I can help you:</h1>
       <div className={styles.mainContent}>
         <div className={styles.nonFormSection}>
           <img
