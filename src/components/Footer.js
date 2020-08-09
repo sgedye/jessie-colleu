@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </section>
       <section className="copywrite">
-        <p>© Jessica Potes 2020</p>
+        <p>© Jessica Colleu Terradas (JTC) Consulting 2020</p>
       </section>
     </footer>
   );

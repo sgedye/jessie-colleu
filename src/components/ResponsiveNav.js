@@ -31,7 +31,7 @@ function ResponsiveNav ({ navLinks, background, hoverBackground, linkColor, logo
               background: hoverIndex === id ? hoverBackground || "#999" : "",
             }}
           >
-            <NavLink to={path} exact style={{ color: linkColor || "#eee" }} activeStyle={{ color: '#ffd700' }} onClick={() => setNavOpen(false)}>
+            <NavLink to={path} exact style={{ color: linkColor || "#eee" }} activeStyle={{ color: '#61dafb' }} onClick={() => setNavOpen(false)}>
               {title}
               {icon}
             </NavLink>
