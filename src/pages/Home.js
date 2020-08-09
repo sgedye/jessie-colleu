@@ -17,7 +17,7 @@ function Home() {
           <h2 className={styles.subHeading}>Mission</h2>
           <p className={styles.mainText}>Ensuring that all students, including those with learning difficulties or from disadvantaged backgrounds, gain access to high-quality education suited to their needs.</p>
           <h2 className={styles.subHeading}>Vision</h2>
-          <p className={styles.mainText}>All schools have the moral obligation to ensure that all students, regardless of background, can read fluently.</p>
+          <p className={styles.mainText}>All schools have the moral obligation to ensure that all students leave school with the basic knowledge and skills to reach their full potential.</p>
           <h2 className={styles.subHeading}>Values</h2>
           <table className={styles.valueTable}>
             <tbody>
@@ -65,7 +65,7 @@ function Home() {
           Her passion is to enable disadvantaged children to achieve their full potential. She strongly believes that an education is the greatest proactive factor to make this a better world, so she completed a Masters of Education to put her passion into practice.<br /><br />
           Jessica firmly believes that it is the responsibility of teachers to help students overcome educational obstacles giving them independence and full access to life’s opportunities. She likes to be challenged which is why she went into special education. By helping the most difficult and challenging students overcome their learning barriers, she feels she can do the most good.<br /><br />
           Having had a lot of success as a teacher and being a sought-after advisor to other schools, Jessica embraces every opportunity that will develop her leadership skills further and therefore magnify and extend the positive impact of her work. Her vision of leadership is to inspire, energise and enable others to be the best educators they can be.<br /><br />
-          Jessica's work truly provides her with a deep sense of purpose and reflects her values, energy and personality. Through her motivation, grit, effort, and friendly and respectful relationships, She has a positive influence. She strives to blossom into an achiever and inspirational leader by allowing the various petals of her identity to unfold. Every day she cultivates her self-confidence and professionalism, aiming to turn her vision into tangible and sustainable outcomes. As Aristotle said: “Where the needs of the world and your talents cross, there lies your vocation.”
+          Jessica's work truly provides her with a deep sense of purpose and reflects her values, energy and personality. Through her motivation, grit, effort, and friendly and respectful relationships, She has a positive influence. Jessica strives to blossom into an achiever and inspirational leader by allowing the various petals of her identity to unfold. Every day she cultivates her self-confidence and professionalism, aiming to turn her vision into tangible and sustainable outcomes. As Aristotle said: “Where the needs of the world and your talents cross, there lies your vocation.”
         </p>
       </div>
       <br /><br /><br />

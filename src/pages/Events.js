@@ -57,12 +57,16 @@ const Events = () => {
             <div className={styles.main}>
               <div className={styles.description}>{description}</div>
               {
-                links.map(({ id, title, src }) => (
-                  <a key={id} className={styles.link} href={src} target="_blank" rel="noreferrer noopener">
-                    {title}
-                    <FaExternalLinkAlt />
-                  </a>
-                ))
+                links.map(({ id, title, src }) => {
+                  return (title === "") ? null :
+                    (
+                      <a key={id} className={styles.link} href={src} target="_blank" rel="noreferrer noopener">
+                        {title}
+                        <FaExternalLinkAlt />
+                      </a>
+                    )
+                  }
+                )
               }
             </div>
           </div>
