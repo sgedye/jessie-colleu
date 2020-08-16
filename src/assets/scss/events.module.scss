@@ -123,11 +123,11 @@
     display: inline-block;
     margin: 0.5rem 0 0.5rem 1rem;
     background-color: transparent;
-    transition: 800ms all ease-in-out;
+    transition: 600ms all ease-in-out;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     &:hover {
-      background-color: rgba(255, 0, 0, 0.3);
+      background-color: #61dafb;
     }
   }
 }

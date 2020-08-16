@@ -9,12 +9,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Research from './pages/Research';
 import Rtc from './pages/research/Rtc';
-import Aase from './pages/research/Aase';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Events from './pages/Events';
 // import Resources from './pages/Resources';
 import Consulting from './pages/Consulting';
+import Publications from './pages/research/Publications';
 
 const App = () => (
   <div id="app">
@@ -31,7 +31,7 @@ const App = () => (
         <Route path="/contact" component={Contact} />
         <Route path="/research" exact component={Research} />
         <Route path="/research/rtc" component={Rtc} />
-        <Route path="/research/aase" component={Aase} />
+        <Route path="/research/publications" component={Publications} />
         <Route path="/events" component={Events} />
         {/* <Route path="/resources" component={Resources} /> */}
         <Route path="/consulting" component={Consulting} />
