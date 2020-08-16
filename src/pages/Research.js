@@ -1,5 +1,5 @@
 import React from "react"
-import { Switch, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 import styles from "../assets/scss/research.module.scss"
 import publications from "../assets/images/research/publications.jpg"
