@@ -42,15 +42,20 @@ export default [
     image: literacy2021,
     description: (
       <p>
-        Preparations are well and truly underway for the third biennial DSF Language, Literacy and Learning Conference.<br /><br />
-        The Dyslexia-SPELD Foundation WA (DSF) provides services designed to benefit all children and adults struggling with literacy and/or numeracy acquisition.
+        Preparations are well and truly underway for the third biennial DSF
+        Language, Literacy and Learning Conference.
+        <br />
+        <br />
+        The Dyslexia-SPELD Foundation WA (DSF) provides services designed to
+        benefit all children and adults struggling with literacy and/or numeracy
+        acquisition.
       </p>
     ),
     links: [
       {
         id: "event-literacy-2021-link-0",
         title: "Join the mailing list",
-        src: "https://t.co/vhimog1hHA?amp=1"
+        src: "https://t.co/vhimog1hHA?amp=1",
       },
     ],
   },
@@ -95,9 +100,18 @@ export default [
     image: perthSSP,
     description: (
       <p>
-        Perth Sharing Successful Practice brings together academics, administrators and classroom teachers who demonstrate evidence-based practice.<br /><br />
-        Keynote Speakers: Emeritus Professor Bill Louden, Professor Stephen Dinham, Dr Catherine Scott, Dr Jennifer Buckingham, Associate Professor Lorraine Hammond and Ollie Lovell.<br /><br />
-        Jessica is part of the steering committee and will be presenting two workshops.
+        Perth Sharing Successful Practice brings together academics,
+        administrators and classroom teachers who demonstrate evidence-based
+        practice.
+        <br />
+        <br />
+        Keynote Speakers: Emeritus Professor Bill Louden, Professor Stephen
+        Dinham, Dr Catherine Scott, Dr Jennifer Buckingham, Associate Professor
+        Lorraine Hammond and Ollie Lovell.
+        <br />
+        <br />
+        Jessica is part of the steering committee and will be presenting two
+        workshops.
       </p>
     ),
     links: [
@@ -128,20 +142,21 @@ export default [
         schools.
         <br />
         <br />
-        Jessica is{" "}
+        Jessica{" "}
         <a
-          href="https://www.acsa.edu.au/pages/page770.asp"
+          href="https://www.acsa.edu.au/pages/webinars/2020/Jessica%20Colleu%20Terradas.mp4"
+          // href="https://www.acsa.edu.au/pages/page770.asp"
           target="_blank"
           rel="noreferrer noopener"
         >
-          presenting a webinar
+          presented a webinar
         </a>{" "}
         titled{" "}
         <i>
           Best practices in literacy and literacy interventions for older
           struggling students in secondary schools
         </i>{" "}
-        at 7-8pm AEST on August 26, 2020.
+        on August 26, 2020.
       </p>
     ),
     links: [
@@ -198,13 +213,27 @@ export default [
     description: (
       <>
         <p>
-          Educational leaders and teachers from the Department for Education, Catholic Education SA and the Association of Independent Schools of SA are invited to attend the next Literacy Guarantee Conference which will feature a range of leading experts in literacy to support leaders and teachers more effectively meet the needs of all students.<br /><br />
-          Keynote address: Dr Tanya Serry. Senior Lecturer, Speech Pathology, La Trobe University.<br /><br />
+          Educational leaders and teachers from the Department for Education,
+          Catholic Education SA and the Association of Independent Schools of SA
+          are invited to attend the next Literacy Guarantee Conference which
+          will feature a range of leading experts in literacy to support leaders
+          and teachers more effectively meet the needs of all students.
+          <br />
+          <br />
+          Keynote address: Dr Tanya Serry. Senior Lecturer, Speech Pathology, La
+          Trobe University.
+          <br />
+          <br />
           Jessica presented two 90-minute workshops on:
         </p>
         <ol>
-          <li>"The key components of an effective literacy program to support struggling adolescent readers"</li>
-          <li>"Using classroom videos to deconstruct and analyse teacher practice"</li>
+          <li>
+            "The key components of an effective literacy program to support
+            struggling adolescent readers"
+          </li>
+          <li>
+            "Using classroom videos to deconstruct and analyse teacher practice"
+          </li>
         </ol>
       </>
     ),
@@ -212,7 +241,8 @@ export default [
       {
         id: "event-literacy-2020-link-0",
         title: "Conference Guide",
-        src: "https://www.education.sa.gov.au/sites/default/files/literacy-guarantee-conference-guide.pdf"
+        src:
+          "https://www.education.sa.gov.au/sites/default/files/literacy-guarantee-conference-guide.pdf",
       },
     ],
   },
@@ -224,15 +254,33 @@ export default [
     image: leadersConf,
     description: (
       <p>
-        33 of the country’s accomplished teachers and school leaders converged in Sydney to discuss the best ways to make their students and schools future ready. Each Fellow is a recipient of a prestigious <a href="https://teachingawards.com.au/" target="_blank" rel="noreferrer noopener">Commonwealth Bank Teaching Award</a>, and together, provide a breadth and depth of teaching and school leadership experience and expertise in a range of Australian school settings.  Many of these schools are in communities where complexities and challenges of low socioeconomic disadvantage exist.<br /><br />
-        The Forum provided Fellows with the opportunity to connect, to be challenged by new ideas, and to explore ways to share their learnings with the broader teaching profession. 
+        33 of the country’s accomplished teachers and school leaders converged
+        in Sydney to discuss the best ways to make their students and schools
+        future ready. Each Fellow is a recipient of a prestigious{" "}
+        <a
+          href="https://teachingawards.com.au/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Commonwealth Bank Teaching Award
+        </a>
+        , and together, provide a breadth and depth of teaching and school
+        leadership experience and expertise in a range of Australian school
+        settings. Many of these schools are in communities where complexities
+        and challenges of low socioeconomic disadvantage exist.
+        <br />
+        <br />
+        The Forum provided Fellows with the opportunity to connect, to be
+        challenged by new ideas, and to explore ways to share their learnings
+        with the broader teaching profession.
       </p>
     ),
     links: [
       {
         id: "event-leaders-2019-link-0",
         title: "View Blog on Forum",
-        src: "https://www.schoolsplus.org.au/blog/leaders-today-leaders-tomorrow-ideas-from-our-teaching-fellows/"
+        src:
+          "https://www.schoolsplus.org.au/blog/leaders-today-leaders-tomorrow-ideas-from-our-teaching-fellows/",
       },
     ],
   },
@@ -244,16 +292,31 @@ export default [
     image: researchEd2019,
     description: (
       <p>
-        ResearchED returns to Australia with another day of evidence, discussion, challenge, networking and provocation. Education is in a period of huge upheaval, as the evidence revolution continues. Old ways of working are now being scrutinised, criticised, updated and improved, and we’ve started to see dynamic and exciting new ways of teacher-led involvement of rebooting the classroom.<br /><br />
-        The speaker schedule and tickets can be bought on the <a href="https://researched.org.uk/event/researched-melbourne-2019/" target="_blank" rel="noopener noreferrer">ResearchED event page</a>. 
-        Jessica presented a workshop titled "Remediating adolescent literacy using correcting Reading and Spelling Mastery (Grades 7 to 10)".
+        ResearchED returns to Australia with another day of evidence,
+        discussion, challenge, networking and provocation. Education is in a
+        period of huge upheaval, as the evidence revolution continues. Old ways
+        of working are now being scrutinised, criticised, updated and improved,
+        and we’ve started to see dynamic and exciting new ways of teacher-led
+        involvement of rebooting the classroom.
+        <br />
+        <br />
+        The speaker schedule and tickets can be bought on the{" "}
+        <a
+          href="https://researched.org.uk/event/researched-melbourne-2019/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ResearchED event page
+        </a>
+        . Jessica presented a workshop titled "Remediating adolescent literacy
+        using correcting Reading and Spelling Mastery (Grades 7 to 10)".
       </p>
     ),
     links: [
       {
         id: "event-brighton-2019-link-0",
         title: "View Program",
-        src: researchEdProgram
+        src: researchEdProgram,
       },
     ],
   },
@@ -265,16 +328,35 @@ export default [
     image: studyTour2019,
     description: (
       <p>
-        Alongside 11 other leading educators from throughout Australia, I was fortunate to embark on a week-long study tour of Singapore in July. The tour was part of a 12-month Fellowship awarded to me through the annual Commonwealth Bank Teaching Awards, an initiative run in partnership with education charity Schools Plus.<br /><br />
-        During the tour we visited a number of leading education institutes and schools, including the National Institute of Education, Ngee Ann Secondary School, the Academy of Singapore Teachers, Nan Chiau Primary School, the Academy of Principals Singapore, and Crest Secondary School.<br /><br />
-        The Commonwealth Bank Teaching Awards are run in partnership with Schools Plus, a not-for-profit organisation, which was established in 2013 to increase philanthropy for schools that most need support. Launched in 2016, the awards are run annually to recognise and reward 12 teachers across Australia with a $45,000 Teaching Fellowship including a Study Exchange Tour to Singapore. The majority of the recipients are teachers or school leaders working in schools in disadvantaged communities.
+        Alongside 11 other leading educators from throughout Australia, I was
+        fortunate to embark on a week-long study tour of Singapore in July. The
+        tour was part of a 12-month Fellowship awarded to me through the annual
+        Commonwealth Bank Teaching Awards, an initiative run in partnership with
+        education charity Schools Plus.
+        <br />
+        <br />
+        During the tour we visited a number of leading education institutes and
+        schools, including the National Institute of Education, Ngee Ann
+        Secondary School, the Academy of Singapore Teachers, Nan Chiau Primary
+        School, the Academy of Principals Singapore, and Crest Secondary School.
+        <br />
+        <br />
+        The Commonwealth Bank Teaching Awards are run in partnership with
+        Schools Plus, a not-for-profit organisation, which was established in
+        2013 to increase philanthropy for schools that most need support.
+        Launched in 2016, the awards are run annually to recognise and reward 12
+        teachers across Australia with a $45,000 Teaching Fellowship including a
+        Study Exchange Tour to Singapore. The majority of the recipients are
+        teachers or school leaders working in schools in disadvantaged
+        communities.
       </p>
     ),
     links: [
       {
         id: "event-study-tour-2019-link-0",
         title: "School Visit",
-        src: "https://visitsatsst.wordpress.com/2019/07/11/visit-by-australian-schools-plus-11-july-2019/"
+        src:
+          "https://visitsatsst.wordpress.com/2019/07/11/visit-by-australian-schools-plus-11-july-2019/",
       },
     ],
   },
@@ -286,16 +368,26 @@ export default [
     image: risingWomen2019,
     description: (
       <>
-        <p>As part of the Department’s Women in Leadership strategy, the Leadership Institute is offering a Rising Leaders program. Up to 20 places are available for this program, which aims to enhance participants’ knowledge of, and confidence in, their own leadership capabilities, and provide learning opportunities that contribute to personal and professional growth.</p>
+        <p>
+          As part of the Department’s Women in Leadership strategy, the
+          Leadership Institute is offering a Rising Leaders program. Up to 20
+          places are available for this program, which aims to enhance
+          participants’ knowledge of, and confidence in, their own leadership
+          capabilities, and provide learning opportunities that contribute to
+          personal and professional growth.
+        </p>
         <br />
-        <p>Photo of Stephen Baxter, Deputy Director General, Schools with Jessica at the Women in Leadership Alumni Event, June 28th, 2019.</p>
+        <p>
+          Photo of Stephen Baxter, Deputy Director General, Schools with Jessica
+          at the Women in Leadership Alumni Event, June 28th, 2019.
+        </p>
       </>
     ),
     links: [
       {
         id: "",
         title: "",
-        src: ""
+        src: "",
       },
     ],
   },
@@ -307,18 +399,36 @@ export default [
     image: dsf2019,
     description: (
       <>
-        <p>Three days, up to 100 speakers, great resources and an amazing opportunity for anyone with an interest in improving literacy and numeracy outcomes for all students. This incredible event is not to be missed!</p>
+        <p>
+          Three days, up to 100 speakers, great resources and an amazing
+          opportunity for anyone with an interest in improving literacy and
+          numeracy outcomes for all students. This incredible event is not to be
+          missed!
+        </p>
         <br />
-        <p>The Language, Literacy and Learning Conference provides a wealth of information on the factors influencing the successful acquisition of skills in language, literacy and numeracy. It is particularly relevant to classroom teachers, school principals and administrators, school psychologists, speech pathologists, occupational therapists, allied health professionals, tutors, parents and other key stakeholders concerned with the effective education and support of all school-aged children - including those with learning difficulties.</p>
+        <p>
+          The Language, Literacy and Learning Conference provides a wealth of
+          information on the factors influencing the successful acquisition of
+          skills in language, literacy and numeracy. It is particularly relevant
+          to classroom teachers, school principals and administrators, school
+          psychologists, speech pathologists, occupational therapists, allied
+          health professionals, tutors, parents and other key stakeholders
+          concerned with the effective education and support of all school-aged
+          children - including those with learning difficulties.
+        </p>
         <br />
-        <p>Jessica presented a workshop titled Connecting maths: Developing numeracy and mathematical literacy in at-risk students.</p>
+        <p>
+          Jessica presented a workshop titled Connecting maths: Developing
+          numeracy and mathematical literacy in at-risk students.
+        </p>
       </>
     ),
     links: [
       {
         id: "event-lll_conf-2019-link-0",
         title: "View Program",
-        src: "https://literacylanguageconf.com/pdf/DSF8062-Conference-program-FINAL.pdf"
+        src:
+          "https://literacylanguageconf.com/pdf/DSF8062-Conference-program-FINAL.pdf",
       },
     ],
   },
@@ -330,31 +440,62 @@ export default [
     image: dsf2017,
     description: (
       <>
-        <p>The conference was run by <a href="https://dsf.net.au/" target="_blank" rel="noopener noreferrer">DSF Literacy and Clinical Services</a> (the Dyslexia-SPELD Foundation Western Australia), a centre of excellence providing services in the field of learning difficulties and learning disorders.</p>
+        <p>
+          The conference was run by{" "}
+          <a
+            href="https://dsf.net.au/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DSF Literacy and Clinical Services
+          </a>{" "}
+          (the Dyslexia-SPELD Foundation Western Australia), a centre of
+          excellence providing services in the field of learning difficulties
+          and learning disorders.
+        </p>
         <br />
-        <p>The conference involved addresses from six keynote speakers, including Professor Kenn Apel, Professor Kate Nation and Professor Pamela Snow, in addition to eight streams of concurrent sessions. In total, 70 presentations (including keynote addresses, workshops, symposia, breakout sessions and program presentations) were completed by more than 80 presenters over the three days of the conference. The speakers presented key research findings regarding multiple aspects of learning and literacy to better inform delegates on how best to teach and support the literacy development of all students.</p>
+        <p>
+          The conference involved addresses from six keynote speakers, including
+          Professor Kenn Apel, Professor Kate Nation and Professor Pamela Snow,
+          in addition to eight streams of concurrent sessions. In total, 70
+          presentations (including keynote addresses, workshops, symposia,
+          breakout sessions and program presentations) were completed by more
+          than 80 presenters over the three days of the conference. The speakers
+          presented key research findings regarding multiple aspects of learning
+          and literacy to better inform delegates on how best to teach and
+          support the literacy development of all students.
+        </p>
         <br />
-        <p>The need for up-to-date high quality professional learning opportunities for teachers and allied health professionals keen to reverse declining literacy and numeracy outcomes in Australia has been well-documented. DSF provides extensive professional support to schools and identifies the need to bring international leaders to Australia to share their knowledge and expertise.</p>
+        <p>
+          The need for up-to-date high quality professional learning
+          opportunities for teachers and allied health professionals keen to
+          reverse declining literacy and numeracy outcomes in Australia has been
+          well-documented. DSF provides extensive professional support to
+          schools and identifies the need to bring international leaders to
+          Australia to share their knowledge and expertise.
+        </p>
         <br />
-        <p>Jessica presented a workshop titled Successful literacy intervention in a Western Australian secondary school.</p>
+        <p>
+          Jessica presented a workshop titled Successful literacy intervention
+          in a Western Australian secondary school.
+        </p>
       </>
     ),
     links: [
       {
         id: "event-lll_conf-2017-link-0",
         title: "More Information",
-        src: "https://www.ianpotter.org.au/knowledge-centre/case-studies/dsf-language-literacy-and-learning-conference/"
+        src:
+          "https://www.ianpotter.org.au/knowledge-centre/case-studies/dsf-language-literacy-and-learning-conference/",
       },
       {
         id: "event-lll_conf-2017-link-1",
         title: "Guide",
-        src: "https://www.speld.org.au/files/resources/language_literacy_and_learning_conference_2017.pdf"
+        src:
+          "https://www.speld.org.au/files/resources/language_literacy_and_learning_conference_2017.pdf",
       },
     ],
   },
-
-
-
 
   // {
   //   id: "event-",
@@ -364,7 +505,7 @@ export default [
   //   image: uniteSPLD,
   //   description: (
   //     <p>
-        
+
   //     </p>
   //   ),
   //   links: [
@@ -384,7 +525,7 @@ export default [
   //   image: uniteSPLD,
   //   description: (
   //     <p>
-        
+
   //     </p>
   //   ),
   //   links: [
