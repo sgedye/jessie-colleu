@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 
 .mainContent {
   display: -ms-flexbox;
@@ -9,94 +9,42 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-}
-.nonFormSection, .formSection {
-  width: 100%;
   min-width: 200px;
-  max-width: 500px;
   background-color: white;
   border: 1px solid #333;
   border-radius: 1rem;
 }
-.nonFormSection {
-  margin: 0 auto;
-  text-align: center;
+
+.text {
+  padding: 1rem;
 }
-.formSection {
-  margin: 1rem auto 0;
+.contactDescription {
+  font-size: 1.2em;
+  padding-bottom: 1rem;
 }
 
-.contactDescription {
-  padding: 1rem;
-  font-size: 1.2em;
+.emailMe {
+  font-size: 1.4em;
 }
+
 .headshot {
+  display: block;
   width: 100%;
+  min-width: 218px;
   max-width: 300px;
+  margin: 0 auto;
   height: auto;
   border-radius: 1rem 1rem 0 0;
 }
 
-.formHeader {
-  width: 100%;
-  padding: 1.5em;
-  background: darkblue;
-  background-size: contain;
-  background: url('../images/contact/marble.jpg') bottom left;
-  border-bottom: 1px solid #333;
-  border-radius: 1rem 1rem 0 0;
-  color: black;
-  .formTitle {
-    font-size: 1.8em;
-    text-shadow: 1px 1px white, 0 0 10px white;
+
+@media screen and (min-width: 426px) {
+  .headshot {
+    border-radius: 0;
   }
-  .formSubtitle {
-    margin: 1em 0 0.4em 0;
-    text-shadow: 1px 1px white, 0 0 10px white;
+  .text {
+    padding: 2rem;
   }
-}
-.formBody {
-  width: 100%;
-  margin: 1em 0;
-  padding: .5em 1.5em 1em;
-  .list {
-    padding: 0;
-    list-style-type: none;
-    .listItem {
-      margin: 0.6rem 0;
-      color: black;
-    }
-  }
-}
-.formLabel {
-  font-size: 1.2em;
-}
-.formInput, .formTextArea {
-  font-family: 'Dosis', sans-serif;
-  margin: 0.2rem 0;
-  font-size: 1.2em;
-  width: 100%;
-  padding: 0.2rem 0.4rem;
-  &:focus {
-    background-color: #eee;
-    outline: #111;
-    outline-style: auto;
-  }
-}
-.formTextArea {
-  font-family: 'Dosis', sans-serif;
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 50px;
-  max-height: 500px;
-}
-.submitButton {
-  padding: 0.6em 1.2em;
-  color: white;
-  background-color: blue;
-  border-radius: 0.5rem;
-  text-transform: uppercase;
-  font-weight: 600;
 }
 
 @media screen and (min-width: 1024px) {
@@ -106,10 +54,8 @@
     flex-direction: row-reverse;
     margin-top: 2em;
   }
-  .nonFormSection {
-    max-width: 300px;
-  }
-  .formSection {
-    margin: 0 auto;
+
+  .headshot {
+    border-radius: 0 1rem 1rem 0;
   }
 }
