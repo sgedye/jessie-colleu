@@ -117,9 +117,9 @@ export default [
     links: [
       {
         id: "event-1-link-0",
-        title: "Buy your ticket",
+        title: "View conference",
         src:
-          "https://www.eventbrite.com.au/e/perth-sharing-successful-practice-tickets-86985970379",
+          "https://drive.google.com/file/d/1wBCUxSYrWFt-NpAXpU5xAuLkz9AdQgj6/view",
       },
     ],
   },
